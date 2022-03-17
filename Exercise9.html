@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Ballasio, Jan Ryan M." />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registration Form - Jan Ryan Ballasio</title>
+</head>
+ <body>
+     <font face="Trebuchet MS"> 
+    <blockquote>
+    <form>
+        <fieldset>
+        <h1><b><center> Sign up now!</center></b></h1>
+        <p>Fields marked (*) are required</p>
+
+                <fieldset>
+                    <legend><h3>Your Details</h3></legend>
+                        <label for="fname">Name *</label> 
+                        <input type="text" size="30" max="30" name="Full name" title="" placeholder="Full name" pattern="[a-zA-Z\s]+" required autofocus/><br />
+                        <label for="mail"> Email * </label>
+                        <input type="email" size="30"  name="email" title="" placeholder="e.g humcom@sample.org" required/><br />
+                        <label for="pone">Phone * </label> 
+                        <input type="text" size="30" max="11" minlength="11" maxlength="11" name="Phone" title="" placeholder="Please enter an eleven number" pattern="[0-9]*"  required/><br />
+                </fieldset>
+
+                <fieldset> 
+                    <legend><h3>Delivery Address</h3></legend>
+                        <label for="add"> Address 1 *</label> 
+                        <input align="center" type="text" size="30" max="50" name="Address 1" title="" placeholder="House/Apt. Number and Street" required/><br />
+                        <label for="dis"> District/Barangay * </label>
+                            <input  type="text" size="30" max="50" name="District/Barangay" title="" placeholder="District/Barangay Name" required/><br />
+                        <label for="ct">City *</label>
+					<select>
+                        <option value="volvo">Alfonso Tabora</option>
+                        <option value="saab">Bakakeng North</option>
+                        <option value="opel">Bakakeng Central</option>
+                        <option value="audi">Bagong Lipunan </option>
+                        <option value="audi">Aurora Hill South Central </option>
+                        <option value="audi">Atok Trail </option>
+                        <option value="audi">Ambiong </option>
+					</select>
+                    <br/>
+                        <label for="post">Postal Code * </label>
+                            <input type="text" size="30" max="8" maxlength="8"  name="Postal Code" title="" placeholder="" pattern="[0-9]*" required/> <br />
+                        <label for="pro">Province *</label>
+                    <select>
+                        <option value="volvo">Ilocos Norte</option>
+                        <option value="saab">Ilocos Sur</option>
+                        <option value="opel">La Union</option>
+                        <option value="audi">Pangasinan </option>
+                        <option value="audi">Batanes</option>
+                        <option value="audi">Cagayan</option>
+                        <option value="audi">Isabela</option>
+                    </select>
+                    <br/>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h3>Membership Information</h3></legend>
+                        <label for="user">Username * </label>
+                            <input type="text" size="30" max="50" minlength="8" name="Full name" title="" placeholder="Atleast 8 alphanumeric characters" pattern="[a-zA-Z0-9]*"  required/><br />
+                        <label for="pass"> Password* <input type="password" size="30" max="" name="Password" title="" minlength="6" required/></label><br />
+                        <label for="mag">Magazine Subscriptions:</label><br>
+                        <input type="checkbox" name="car" value="pc"> PCMagazine<br>
+                        <input type="checkbox" name="car" value="wi"> Wired<br>
+                        <input type="checkbox" name="car" value="co"> Computerworld<br>
+                        <input type="checkbox" name="car" value="in"> I don't subscribe<br>
+                        <input type="checkbox" name="car" value="ot"> Other
+                </fieldset>
+                
+					<input type="submit"  value=" Submit">
+				
+            </fieldset>
+        </form>
+    </blockquote>
+    </font>
+ </body>
+ </html>
