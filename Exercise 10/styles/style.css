@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Poppins:wght@200;300;400;600;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/valorant');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/bg.JPG);
+    background-size: cover;
+}
+.contents h1{
+    font-family: 'VALORANT', sans-serif;
+    color: red;    
+    font-size: 80px;                                     
+}
+.content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents{
+    text-align: center;
+}
+.container{
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.container .box{
+    width: 100%;
+    padding: 50px;
+    background: rgb(224, 224, 224);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+p{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+h1.sts{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+li{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.container_baba{
+    width: 70%;
+    margin: 1px auto;
+    padding: 10px;
+}
+.container_baba .box_baba{
+    width: 100%;
+    padding: 50px;
+    background: rgb(224, 224, 224);
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.btn {
+    background-color: #f44336; 
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a.btn{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
