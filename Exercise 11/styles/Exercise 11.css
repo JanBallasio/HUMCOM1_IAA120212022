@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Poppins:wght@200;300;400;600;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/valorant');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.awt{
+    width: 98%;
+    margin: 15px;
+    padding: 10px;
+    margin-bottom: 0px;
+    float: left;
+    border: 5px solid black;
+}
+.awt .logo-img{
+    width: 15%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    float: left;
+}
+.awt .links {
+    width: 57%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    float: right;
+    ;
+}
+.btn {
+    background-color: #f44336; 
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a.btn{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.box{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+    background: rgb(224, 224, 224);
+}
+h1.sts{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.ref {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
