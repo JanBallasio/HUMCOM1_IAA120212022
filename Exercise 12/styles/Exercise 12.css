@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Poppins:wght@200;300;400;600;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/valorant');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.whole {
+    width: 100%;
+    margin: 1px;
+    padding: 5px;       
+    float: right;
+    border: 2px solid black;
+    background: #a9a9a9;
+}
+.whole .body {
+    margin: 10px;
+    padding: 5px;     
+    border: 2px solid black;
+    background: #d3d3d3;
+}
+.whole .body .header .nav{
+    margin: 10px;
+    padding: 5px;       
+    border: 2px solid black;
+    background: white;
+}
+
+.whole .sections .sec{
+    width: 25%;
+    margin-left: 10px;
+    padding: 5px;     
+    border: 2px solid black;
+    background: #d3d3d3;
+    float: left;
+}
+.sections .sec .sechead{
+    width: 98%;
+    margin: 5px;
+    padding: 5px;     
+    border: 2px solid black;
+    background: white;
+}
+.sections .sec .secnav{
+    width: 98%;
+    height: 830px;
+    margin: 5px;
+    padding: 160px; 
+    padding-top: 350px;   
+    border: 2px solid black;
+    background: white;
+}
+.sections .sec .secfoot{
+    width: 98%;
+    margin: 5px;
+    padding: 5px;     
+    border: 2px solid black;
+    background: white;
+}
+.section{
+    width: 73%;
+    margin-right: 10px;
+    padding: 5px;     
+    border: 2px solid black;
+    background: #d3d3d3;
+    float: right;
+}
+.section .tiohead{
+    width: 99%;
+    margin: 5px;
+    padding: 5px;     
+    border: 2px solid black;
+    background: white;
+}
+.section .tioart{
+    width: 99%;
+    margin: 5px;
+    padding: 5px;     
+    border: 2px solid black;
+    background: #d3d3d3;
+    margin-top: 20px;
+    float: left;
+}
+.section .tioart .artcon{
+    width: 98%;
+    margin: 15px;
+    padding: 5px;     
+    border: 2px solid black;
+    background: white;
+}
+.section .tioart .artp{
+    width: 70%;
+    margin: 15px;
+    padding: 100px;     
+    border: 2px solid black;
+    background: white;
+    float: left;
+    
+}
+.section .tioart .artas{
+    width: 25%;
+    margin: 15px;
+    padding: 100px;     
+    border: 2px solid black;
+    background: white;
+    float: right;
+}
+.section .tioart .artcons{
+    width: 98%;
+    margin: 15px;
+    padding: 5px;     
+    border: 2px solid black;
+    background: white;
+    float: left;
+}
+.whole .footer  {
+    width: 99%;
+    margin: 10px;
+    padding: 20px;     
+    border: 2px solid black;
+    background: white;
+    float: left;
+}
+.tiofoot{
+    width: 98%;
+    margin: 15px;
+    padding: 10px;     
+    border: 2px solid black;
+    background: white;
+    float: right;
+}
+
+
