@@ -1,0 +1,1 @@
+alert("Jan Ryan Ballasio\nBS Computer Science\n1st Year\nHUMCOM1 - IAA1\nIntroduction to JavaScript");
