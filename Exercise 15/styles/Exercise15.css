@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Poppins:wght@200;300;400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.forms{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 1000px;
+}
+.forms h1{
+    font-size: 50px;
+}
+.forms h2{
+    margin-top: 15px;
+}
+
+.forms input{
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 6px;
+    width: 800px;
+}
+.forms label{
+    font-size: 20px;
+    margin: 15px 0;
+    width: 150px;
+    display: inline-block;
+}
